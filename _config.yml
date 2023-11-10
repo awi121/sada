@@ -75,7 +75,10 @@ content:
             In testing, the system detected common pet activities like eating, sleeping, playing, etc with over 85% accuracy. The audio model identified barking, meowing, growling, and other noises with over 90% accuracy.
 
             By combining computer vision and audio sensing with efficient tracking, our system provides a comprehensive overview of a pet's activities and behaviors while home alone. The next step is real-world testing and feedback from pet owners to refine the models before productization.
+        - layout: top-middle
+        
         title: Attention-based Fusion Network for 3D Semantic Segmentation
+        
         description: | 
             This project developed a novel deep learning approach for segmenting 3D point clouds captured by LiDAR sensors. Point cloud data is first projected into 2D range images containing spatial, depth, and intensity information. Self-attention layers extract features from each modality separately.
 
