@@ -66,7 +66,15 @@ content:
         # quote: >
         #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs 
-            Pet owners want to keep their pets safe and happy when home alone, but monitoring them remotely can be challenging. We developed an AI-powered pet monitoring system that uses computer vision and audio detection to identify pet activities and sounds. The system uses YOLOX object detection to identify pets in the camera frame and feed this to a multi-modal Clip model for zero-shot activity recognition. The Clip model was trained on a dataset of pet activity images and descriptive captions. To detect pet noises, we added an audio classification model fine-tuned on a dataset of cat and dog sounds. To optimize compute, we implemented DeepSORT tracking to activate the vision models only when needed. The app displays highlights and timestamps on a timeline so owners can quickly review activities detected during long unattended periods. In testing, the system detected common pet activities like eating, sleeping, playing, etc with over 85% accuracy. The audio model identified barking, meowing, growling, and other noises with over 90% accuracy. By combining computer vision and audio sensing with efficient tracking, our system provides a comprehensive overview of a pet's activities and behaviors while home alone. The next step is real-world testing and feedback from pet owners to refine the models before productization.
+            Pet owners want to keep their pets safe and happy when home alone, but monitoring them remotely can be challenging. We developed an AI-powered pet monitoring system that uses computer vision and audio detection to identify pet activities and sounds.
+
+            The system uses YOLOX object detection to identify pets in the camera frame and feed this to a multi-modal Clip model for zero-shot activity recognition. The Clip model was trained on a dataset of pet activity images and descriptive captions. To detect pet noises, we added an audio classification model fine-tuned on a dataset of cat and dog sounds.
+
+            To optimize compute, we implemented DeepSORT tracking to activate the vision models only when needed. The app displays highlights and timestamps on a timeline so owners can quickly review activities detected during long unattended periods.
+
+            In testing, the system detected common pet activities like eating, sleeping, playing, etc with over 85% accuracy. The audio model identified barking, meowing, growling, and other noises with over 90% accuracy.
+
+            By combining computer vision and audio sensing with efficient tracking, our system provides a comprehensive overview of a pet's activities and behaviors while home alone. The next step is real-world testing and feedback from pet owners to refine the models before productization.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
