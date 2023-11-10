@@ -75,7 +75,8 @@ content:
             In testing, the system detected common pet activities like eating, sleeping, playing, etc with over 85% accuracy. The audio model identified barking, meowing, growling, and other noises with over 90% accuracy.
 
             By combining computer vision and audio sensing with efficient tracking, our system provides a comprehensive overview of a pet's activities and behaviors while home alone. The next step is real-world testing and feedback from pet owners to refine the models before productization.
-        - layout: top-middle
+        
+      - layout: top-middle
         
         title: Attention-based Fusion Network for 3D Semantic Segmentation
         
