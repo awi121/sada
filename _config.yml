@@ -56,10 +56,10 @@ content:
         title: Pet Monitoring with Computer Vision and Audio Detection
         # link: github.com/sproogen
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+        # additional_links:
+        #   - title:  sproogen/modern-resume-theme
+        #     icon: fab fa-github
+        #     url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -75,6 +75,17 @@ content:
             In testing, the system detected common pet activities like eating, sleeping, playing, etc with over 85% accuracy. The audio model identified barking, meowing, growling, and other noises with over 90% accuracy.
 
             By combining computer vision and audio sensing with efficient tracking, our system provides a comprehensive overview of a pet's activities and behaviors while home alone. The next step is real-world testing and feedback from pet owners to refine the models before productization.
+        title: Attention-based Fusion Network for 3D Semantic Segmentation
+        description: | 
+            This project developed a novel deep learning approach for segmenting 3D point clouds captured by LiDAR sensors. Point cloud data is first projected into 2D range images containing spatial, depth, and intensity information. Self-attention layers extract features from each modality separately.
+
+            A fusion module is then applied to merge the modality-specific features using pairwise cross-attention. This allows the model to learn complex inter-modal relationships. The fused features are passed to a convolutional segmentation network to generate per-pixel semantic predictions.
+
+            In experiments on the SemanticKITTI dataset, our approach achieved a mean intersection-over-union (mIoU) of 45.5% while operating at 24 FPS. This is comparable to prior state-of-the-art projection-based methods like RangeNet++ and PolarNet but with higher computational efficiency.
+
+            The core novelty of our work is the attention-based feature fusion module. By processing each modality independently and fusing with cross-attention, our model can better handle the challenges of multi-modal 3D data. Our modular design also allows flexibility to incorporate additional sensing modalities in the future.
+
+            In conclusion, we demonstrate the viability of using attention mechanisms for fusing multi-modal features in 3D segmentation models. Our work provides a strong foundation for further research into attention-based architectures for processing LiDAR and other 3D data.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
